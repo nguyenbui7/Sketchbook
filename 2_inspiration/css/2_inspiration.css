@@ -13,23 +13,96 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 body {
 
-    color: #501616;
-    background-color: #fff4d0;
-    font-family:'Times New Roman', Times, serif
+    margin: 0;
+    background-image: url("../img/chroma2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Inter", sans-serif; 
+    color: #ffffff;
 }
+
 nav {
-    background-color: #fda55a;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10%;
+    margin: 1%;
+}
+
+nav a {
+
+    color: #eae0bf;
+    text-decoration: none;
     font-size: 20px;
-    color: #260510;
-    text-align: center;
-    
-    a {
-  text-decoration: none;
-    }
+    font-family: "Syncopate", sans-serif;
+    text-decoration: none;
+
 }
+
 h1{
-    font-size: 35px;
+    font-family: "Syncopate", sans-serif;
+    font-size: 60px;
+    padding-top: 2%;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
+.gaga-article {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    margin: 2%;
+    padding-top: 1%;
+    
+}
+.gaga-text h2 {
+    font-family: "Syncopate", sans-serif;
+    font-size: 45px;
+    color: #ffbee8;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    text-decoration: none;
+}
 
+h3{
+    color: #ffffff;
+    font-weight: 300;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.gabi-article {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    margin: 2%;
+    padding-top: 2%;
+}
+
+.gabi-text h2 {
+    font-family: "Syncopate", sans-serif;
+    font-size: 45px;
+    color: #ffdc64;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    text-decoration: none;
+}
+.mitchell-article {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    margin: 2%;
+    padding-top: 2%;
+}
+.mitchell-text h2 {
+    font-family: "Syncopate", sans-serif;
+    font-size: 45px;
+    color: #ffbee8;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    text-decoration: none;
+}
 
