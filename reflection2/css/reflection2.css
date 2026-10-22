@@ -1,0 +1,71 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+*
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+
+ body {
+    margin: 0;
+    background-image: url("../img/chroma3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10%;
+    margin: 1%;
+}
+
+nav a {
+    color: #eae0bf;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Syncopate", sans-serif;
+}
+p {
+    font-family: "San Francisco", sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    font-weight: 300;
+}
+.date {
+    font-size: 25px;
+    font-weight: bold;
+}
+.before-after {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -1%;
+}
+.before-after img {
+    width: 96%;
+}
+h3 {
+    font-family: "San Francisco", sans-serif;
+    color: #eae0bf;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.before-after1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -1%;
+}
+.before-after1 img {
+    width: 100%;
+}
+
+
