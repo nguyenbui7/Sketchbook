@@ -28,7 +28,7 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     font-family: "Syncopate", sans-serif;
-    transition-duration: 2s
+    transition-duration: 2s;
 }
 nav a:hover {
     transform: scale(1.75);

@@ -34,7 +34,7 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     font-family: "Syncopate", sans-serif;
-    transition-duration: 2s
+    transition-duration: 2s;
 }
 nav a:hover {
     transform: scale(1.75);
@@ -57,9 +57,13 @@ h2 {
     font-size: 80px;
     padding-top: 1%;
     color: #ffbee8;
+    transition-duration: 2s;
 }
 .h2, a {
     text-decoration: none;
+}
+.h2, a:hover {
+    transform: scale(-1);
 }
 p {
     margin-left: 15%;
