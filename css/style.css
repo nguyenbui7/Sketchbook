@@ -37,11 +37,27 @@ nav a {
 nav a:hover {
     transform: scale(1.75);
 }
+.astronaut-space {
+    display: flex;
+    margin-top: 1.5%;
+    margin-bottom: -1.5%;
+}
+
+.astronaut {
+    width: 10%;
+    height: auto;
+    transition-duration: 4s;
+}    
+
+.astronaut:hover {
+    transform: translate(900%, 0%);
+}
+
 .intro {
     display: flex;
     flex-direction: column;
-    padding: 100px 7%;
-    margin: 4% auto 0 auto;
+    padding: 20px 7%;
+    margin: 0 auto;
 }
 .intro-name {
     font-family: Didot, "Times New Roman", serif;
