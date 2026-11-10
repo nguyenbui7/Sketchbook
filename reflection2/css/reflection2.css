@@ -71,5 +71,14 @@ h3 {
 .before-after1 img {
     width: 100%;
 }
-
+.image-1200px {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.image-600px {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
 

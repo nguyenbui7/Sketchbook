@@ -100,6 +100,35 @@ footer {
     text-decoration: none;
 }
 
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    nav {
+        gap: 5%;
+    }
+    nav a {
+        font-size: 1em;
+    }
+    .astronaut {
+        width: 12%;
+    }
+    .astronaut:hover {
+        transform: translate(700%, 0%);
+    }
+    .intro {
+        padding: 20px 5%;
+    }
+    .intro-name {
+        font-size: 1.8em;
+    }
+    .intro-major {
+        font-size: 4em;
+        margin-left: 20%;
+    }
+    .intro-details {
+        font-size: 1em;
+        margin-left: 20%;
+    }   
+}
+
 @media screen and (max-width: 600px) {
 
     nav {
