@@ -129,8 +129,12 @@ footer {
         padding: 20px 7%;
         margin: 0 auto;
     }
+    .intro-name {
+        font-size: 1.35em;
+        text-align: center;
+    }
     .intro-major {
-        font-size: 4.85em;
+        font-size: 3em;
         margin-left: 0;
         text-align: center;
     }
