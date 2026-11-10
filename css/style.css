@@ -12,7 +12,8 @@ go ahead and play with these, can you get the colors to change? What do you noti
  */
 
 body {
-    margin: 0;
+    min-height: 100vh;
+    width: 100%;
     background-image: url("../img/chroma.jpg");
     background-size: cover;
     background-position: center;
@@ -30,7 +31,7 @@ nav {
 nav a {
     color: #eae0bf;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25em;
     font-family: "Syncopate", sans-serif;
     transition-duration: 2s;
 }
@@ -61,14 +62,14 @@ nav a:hover {
 }
 .intro-name {
     font-family: Didot, "Times New Roman", serif;
-    font-size: 35px;
+    font-size: 2.1875em;
     font-weight: 300;
     color: #eae0bf;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 .intro-major {
     font-family: Didot, "Times New Roman", serif;
-    font-size: 90px;
+    font-size: 5.625em;
     font-weight: normal;
     line-height: 0.9;
     color: #ffffff;
@@ -77,7 +78,7 @@ nav a:hover {
     margin-left: 30%
 }
 .intro-details {
-    font-size: 17px;
+    font-size: 1.0625em;
     font-weight: 300;
     color: #ffffff;
     margin-top: 42px;
@@ -98,4 +99,46 @@ footer {
     color: #eae0bf;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    nav a {
+        font-weight: 500;
+        font-size: 1.1em;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+    .astronaut {
+        width: 20%;
+    }
+    .astronaut-space {
+        justify-content: center;
+    }
+    .astronaut:hover {
+        transform: scale(-1);
+    }
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 7%;
+        margin: 0 auto;
+    }
+    .intro-major {
+        font-size: 4.85em;
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+
+
+}
+
+
 
