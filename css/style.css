@@ -42,7 +42,7 @@ nav a:hover {
 }
 .astronaut-space {
     display: flex;
-    margin-top: 1.5%;
+    margin-top: -1%;
     margin-bottom: -1.5%;
 }
 
