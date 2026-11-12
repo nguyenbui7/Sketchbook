@@ -19,6 +19,8 @@ body {
     background-position: center;
     background-attachment: fixed;
     font-family: "San Francisco", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 nav {
     display: flex;
@@ -93,7 +95,8 @@ footer {
     justify-content: center;
     font-family: "Syncopate", sans-serif;
     gap: 3%;
-    padding: 3% 2%;
+    padding: 10px 2%;
+    margin-top: auto;
 }
 .footer a {
     color: #eae0bf;
@@ -174,7 +177,7 @@ footer {
 
 
 
-}
+
 
 
 
